@@ -14,7 +14,7 @@ def guess_gamme():
         user_response =(input('enter your options: '))
         if user_response.lower() == options[0].lower():
             score+=1
-            print("0, incorrect; The answer is '1781', not '1771'")
+            print("correct!!!")
         
         elif user_response.lower() == options[1].lower():
             score+=1
